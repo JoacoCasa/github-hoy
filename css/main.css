@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 1rem;
+    display: inline-block;
+}
+
+/*estilos individuales*/
+
+.caja-uno {
+    
+    background-image: linear-gradient(to bottom, red, yellow); transform: translate(20px, 30px);
+
+}
+
+.caja-dos {
+    background-image: radial-gradient(black, yellow, pink); transform: translateY(40px);
+}
+
+.caja-tres {transform: rotate(30deg);
+
+}
